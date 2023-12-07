@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="QuizSystem:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>QuizSystem</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="td04-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="QuizSystem:war exploded" />
+    </root>
+  </artifact>
+</component>
